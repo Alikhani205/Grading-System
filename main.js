@@ -2,15 +2,16 @@
 //let obtainmark: number = 850;
 //let percentage = (totalmarks /obtainmark )*100;
 //console.log(percentage);//
-var percentage = 75.29;
-if (percentage >= 75.29) {
-    console.log('your grade is A1');
+var percentage = 80;
+if (percentage >= 80) {
+    console.log('Your grade is A1');
 }
-else if (percentage < 75.29) {
-    console.log('your grade is B');
+else if (percentage <= 79 && percentage >= 70) {
+    console.log('your grade is A');
 }
-else
-    (percentage <= 60);
-{
-    console.log('you are passed');
+else if (percentage <= 69 && percentage >= 60) {
+    console.log("your Grade B");
+}
+else {
+    console.log('your grade is C');
 }
